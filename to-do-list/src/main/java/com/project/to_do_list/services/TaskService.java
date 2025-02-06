@@ -56,6 +56,7 @@ public class TaskService {
             Task task = existingTask.get();
             task.setTitle(updatedTask.getTitle());
             task.setDescription(updatedTask.getDescription());
+            task.setCompleted(updatedTask.getCompleted());
             return Optional.of(taskRepository.save(task));
         }
         
