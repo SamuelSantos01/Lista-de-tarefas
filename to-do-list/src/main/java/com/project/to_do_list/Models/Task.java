@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity(name = "task")
-@Table(name = "Task")
+@Table(name = "Tasks")
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
